@@ -17,7 +17,7 @@ public class JobPost {
     private Integer postId;
     private String postProfile;
     private String postDesc;  // Corrected from psotDesc
-    private int reqExperience; // Corrected from reqExerience
+    private int reqExperience; // Corrected from reqExerience yes 2nd release
     
     @Convert(converter = ListToStringConverter.class)
     @Column(name = "post_tech_stack", length = 1000) // Use a longer column length
