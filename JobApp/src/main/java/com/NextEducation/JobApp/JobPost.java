@@ -63,7 +63,7 @@ public class JobPost {
 		this.postProfile = postProfile;
 		this.postDesc = postDesc;
 		this.reqExperience = reqExperience;
-		this.postTechStack = postTechStack; //hello hello
+		this.postTechStack = postTechStack; 
 	}
 	
 	
